@@ -16,6 +16,7 @@ load_dotenv()
 
 COUNTRY_CODE = os.getenv("COUNTRY_CODE", default="US")
 ZIP_CODE = os.getenv("ZIP_CODE", default="20057")
+USER_NAME = os.getenv("USER_NAME", default="Jon Snow")
 
 DEGREE_SIGN = u"\N{DEGREE SIGN}"
 
